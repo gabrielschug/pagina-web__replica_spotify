@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         artistCard.innerHTML = `
             <img src="${artist.image}" alt="imagem do ${artist.name}">
             <div>
-            <a href="${artist.link}">${artist.name}</a>
+            <a target="_blank" href="${artist.link}">${artist.name}</a>
             <p>Artista</p>
             </div>
         `
