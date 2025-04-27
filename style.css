@@ -290,10 +290,19 @@ background-color: #282828;
 
 
 .artist__card a, .album__card a {
-font-size: 12px;
-margin-bottom: 6px;
-
+    font-size: 12px;
+    margin-bottom: 6px;
+    color: white    ;
+    text-decoration: none;
 }
+
+.artist__card a:hover, .album__card a:hover {
+    font-size: 12px;
+    margin-bottom: 6px;
+    color: white;
+    text-decoration: underline;
+}
+
 .artist__card p, .album__card p {
 font-size: 10px;
 color: #b7b3b6;
