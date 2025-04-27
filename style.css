@@ -101,16 +101,18 @@ body{
     cursor: pointer; 
     list-style: none;
     align-items: center;
+
     & a {
         text-decoration: none;
         font-size: 14px;
         color: #a7a7a7;
         font-weight: 700;
-    
-    & a:hover{
-        background-color: #509bf5;
     }
-    }
+}
+
+.nav__lista a:hover{
+    color: white;
+    font-size: 14.5px;
 }
 
 .entrar {
@@ -206,14 +208,15 @@ body{
 
 .nav__playlist button, .nav__podcast button {
     background-color: white;
-    color: black;
+    color: rgb(35, 35, 35);
     border: none;
     padding: 6px 10px;
     margin-top: 16px;
     cursor: pointer;
     border-radius: 20px;
     font-size: 12px;
-}
+    font-weight: 700;
+}   
 
 .nav__playlist button:hover, .nav__podcast button:hover{
     transform: translateY(0px) scale(1.03);
@@ -384,8 +387,13 @@ color: #b7b3b6;
         font-weight: 700;
         cursor: pointer;
     }
+    & button:hover {
+    transform: translateY(0px) scale(1.03);
+    background-color: #ecebeb;
+    }
     & a {
         text-decoration: none;
         color: #000;
     }
 }
+
