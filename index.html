@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web player: música para todas as pessoas</title>
+    <script
+      src="https://kit.fontawesome.com/55366ea89f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
+  </head>
+
+  <body>
+    <div class="topo"> <!-- CABEÇALHO TOTAL-->
+      <div class="esquerda">
+        <!--Esquerda -->
+        <i id="spotify" class="fa-brands fa-spotify"></i> <!--Spotify-->
+        <i id="home" class="fa-solid fa-house"></i>
+        <header class="search__bar">
+          <!-- Barra de Pesquisa -->
+          <i id="i_pesquisa" class="fa-solid fa-magnifying-glass"></i>
+          <input placeholder="O que você quer ouvir?" />
+        </header>
+      </div>
+      <div class="direita">
+        <!--Direita -->
+        <!-- Lista de Opções -->
+        <ul class="nav__lista">
+          <li><a href="">Premium</a></li>
+          <li><a href="">Suporte</a></li>
+          <li><a href="">Baixar</a></li>
+        </ul>
+        <div class="entrar">
+          <!-- Inscrever/Entrar -->
+          <a href="">Instalar Aplicativo</a>
+          <a href=""> Inscrever-se</a>
+          <a class="bEntrar"> Entrar</a>
+        </div>
+      </div>
+    </div>
+    <div class="container"> <!-- TUDO ABAIXO DO CABEÇALHO-->
+      <nav class="sidebar"> <!-- SideBar Esquerda-->
+        <!-- Tela SideBar -->
+        <div class="nav__library">
+          <h4>Sua biblioteca</h4>
+          <p id="plus">+</p>
+        </div>
+        <div class="nav__playlist">
+          <!-- Caixa Playlist -->
+          <h5>Crie sua Primeira Playlist</h5>
+          <p>É fácil, vamos te ajudar</p>
+          <button>Criar Playlist</button>
+        </div>
+        <div class="nav__podcast">
+          <!-- Caixa Podcast -->
+          <h5>Que tal seguir um Podcast?</h5>
+          <p>Avisaremos você sobre novos episódios</p>
+          <button>Explore Podcast</button>
+        </div>
+        <div class="nav__footer">
+          <!-- Links Rodapé -->
+          <a href="">Legal</a>
+          <a href="">Segurança e Centro de Privacidade</a>
+          <a href="">Política de Privacidade</a>
+          <a href="">Cookies</a>
+          <a href="">Sobre anúncios</a>
+          <a href="">Acessibilidade</a>
+        </div>
+        <button class="nav__lang__button">
+          <!-- Botão Linguagem -->
+          <i class="fa-solid fa-globe"></i>
+          <!-- GLOBO -->
+          <p>Português do Brasil</p>
+        </button>
+      </nav>
+      <main> <!-- Tela Principal Direita-->
+        <!-- Tela Principal -->
+        <section class="content">
+          <!-- Caixa Conteúdos -->
+          <div class="content__titulo">
+            <h2>Artistas Populares</h2>
+            <a href="">Mostrar tudo</a>
+          </div>
+          <div class="artists__grid"></div>
+
+          <div class="content__titulo">
+            <h2>Álbuns Populares</h2>
+            <a href="">Mostrar tudo</a>
+          </div>
+          <div class="albums__grid"></div>
+        </section>
+      </main>
+    </div>
+    <div class="banner"> <!-- BANNER FIXO-->
+        <div>
+            <h2>Testar o Premium de graça</h2>
+            <p>Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</p>
+        </div>
+        <button>Inscreva-se grátis</button>
+    </div>
+    <script src="scripts.js"></script> <!-- JAVASCRIPT-->
+  </body>
+</html>
