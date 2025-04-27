@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const artistData = [
         {name: 'Henrique e Juliano', image: './assets/artista-henrique-juliano.jpg'},
         {name: 'Jorge e Mateus', image: './assets/artista-jorge-mateus.jpg'},
-        {name: 'The Weeknd', image: './assets/the-weekend.jpg'},
+        {name: 'The Weeknd', image: './assets/the-weekend.jpg', link: 'https://open.spotify.com/intl-pt/artist/1Xyo4u8uXC1ZmMpatF05PJ'},
         {name: 'Matue', image: './assets/matue.jpg'},
         {name: 'Zé Neto & Cristiano', image: './assets/artista-ze-neto.jpg'},
         {name: 'Eminem', image: './assets/eminem.jpg'},
