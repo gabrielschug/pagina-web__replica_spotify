@@ -289,9 +289,10 @@ background-color: #282828;
 
 
 
-.artist__card h3, .album__card h3 {
+.artist__card a, .album__card a {
 font-size: 12px;
 margin-bottom: 6px;
+
 }
 .artist__card p, .album__card p {
 font-size: 10px;
