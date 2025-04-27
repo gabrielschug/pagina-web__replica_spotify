@@ -34,6 +34,8 @@ body{
 #spotify {
     font-size: 32px;
     margin-right: 1.5rem;
+    text-decoration: none;
+    color: #a7a7a7;
 }
 
 #home {
@@ -261,7 +263,6 @@ main {
     background-color: #181818;
     padding: 16px;
     border-radius: 8px;
-    align-items: center;
     cursor: pointer;
     transition: background-color 0.3s;
     display: flex;
@@ -287,17 +288,15 @@ background-color: #282828;
     margin-bottom: 16px;
 }
 
-
-
 .artist__card a, .album__card a {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 6px;
     color: white    ;
     text-decoration: none;
 }
 
 .artist__card a:hover, .album__card a:hover {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 6px;
     color: white;
     text-decoration: underline;
