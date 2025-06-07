@@ -7,6 +7,5 @@ Este é meu primeiro projeto publicado no GitHub.
 
 LINK → https://gabrielschug.github.io/replica_spotify/
 
+
 - Em breve, novos projetos e inovações!
- 
- 
