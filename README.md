@@ -17,7 +17,7 @@ O objetivo deste projeto foi criar uma página estática representando o site do
 
 ## 🚀 Acesse o site publicado:
 
-🔗 [Clique aqui para visualizar a Página](https://gabrielschug.github.io/pagina__replica-spotify/)
+🔗 [Clique aqui para visualizar a Página](https://gabrielschug.github.io/pagina-web__replica_spotify/)
 
 ---
 
